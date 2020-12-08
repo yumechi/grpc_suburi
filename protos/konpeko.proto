@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package konpeko;
+
+service Pekora {
+  rpc IdolGreeting (GreetRequest) returns (GreetReply) {}
+}
+
+message GreetRequest {
+  string name = 1;
+}
+
+message GreetReply {
+  string message = 1;
+}

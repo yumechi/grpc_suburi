@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+grpcio = "*"
+
+[dev-packages]
+black = "*"
+mypy = "*"
+pytest = "*"
+grpcio-tools = "*"
+
+[requires]
+python_version = "3.9"
+
+[pipenv]
+allow_prereleases = true
+
+[scripts]
+black = "black -v"
+mypy = "mypy src"
