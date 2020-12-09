@@ -7,7 +7,7 @@ import (
 	"net"
 
 	"google.golang.org/grpc"
-	pb "github.com/yumechi/grpc_suburi/server/protos"
+	pb "github.com/yumechi/grpc_suburi/konpeko/server/protos"
 )
 
 const (
